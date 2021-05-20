@@ -153,7 +153,7 @@ return [
                 |
                 */
 
-                'account_suffix' => env('ADLDAP_ACCOUNT_SUFFIX', '@hbng.com'),
+                'account_suffix' => env('ADLDAP_ACCOUNT_SUFFIX', '@me.com'),
 
                 /*
                 |--------------------------------------------------------------------------
@@ -169,7 +169,7 @@ return [
                 |
                 */
 
-                'domain_controllers' => explode(' ', env('ADLDAP_CONTROLLERS', 'hbng.com')),
+                'domain_controllers' => explode(' ', env('ADLDAP_CONTROLLERS', 'me.com')),
 
                 /*
                 |--------------------------------------------------------------------------
