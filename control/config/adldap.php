@@ -238,8 +238,8 @@ return [
                 |
                 */
 
-                'admin_username' => env('ADLDAP_ADMIN_USERNAME', 'cbaapp'),
-                'admin_password' => env('ADLDAP_ADMIN_PASSWORD', 'Cherub@123'),
+                'admin_username' => env('ADLDAP_ADMIN_USERNAME', 'test'),
+                'admin_password' => env('ADLDAP_ADMIN_PASSWORD', 'test123'),
 
                 /*
                 |--------------------------------------------------------------------------
