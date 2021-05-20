@@ -134,9 +134,9 @@ class LoginController extends Controller
      */
     private function ADlogin(Request $request)
     {
-        $check = strpos($request->username, '@hbng.com');
+        $check = strpos($request->username, '@us.com');
         if ($check !== false) {
-            $username = str_replace('@hbng.com', '', $request->username);
+            $username = str_replace('@us.com', '', $request->username);
             $request->merge(['username' => $username]);
         }
         $username = $request->input('username');
